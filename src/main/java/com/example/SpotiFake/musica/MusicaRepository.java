@@ -1,0 +1,8 @@
+package com.example.SpotiFake.musica;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MusicaRepository extends JpaRepository<Musica, Long> {
+}
+
+
